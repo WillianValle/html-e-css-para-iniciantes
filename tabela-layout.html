@@ -6,12 +6,50 @@
   <title>Tabela Layout</title>
 </head>
 <body style="font-size: 20px;">
-  <h1>TABELA</h1>
+  <h1>TABELA LAYOUT</h1>
 
-    <table cellpadding="5" cellspacing="5" border="1">
+    <table cellpadding="10" cellspacing="10" border="1">
       <tr>
-        <th>Este é o cabeçalho do site</th>
-  </tr>
-</table> 
+        <th colspan="2">Este é o cabeçalho do site</th>
+      </tr>
+  <tr>
+      <td width="200">
+        <table cellpadding="5" cellspacing="5">
+          <tr>
+              <th>MENU DO SITE</th>
+          </tr>      
+          <tr>
+              <td><a href="#">Home</a></td>
+          </tr>     
+          <tr>
+            <td><a href="#">Sobre A Empresa</a></td>
+          </tr>     
+          <tr>
+            <td><a href="#">Contato</a></td>
+          </tr>     
+        </table>
+          </td>
+        <td>
+         Espaço para o conteúdo do site,
+         aqui pode ter outras tabelas dentro das colunas e dentro de outras tabelas.
+        </td>
+      </tr>
+
+      <tr>
+          <td colspan="2">
+            <table cellpadding="5" cellspacing="5" width="100%">
+              <tr>
+                  <td width="25%" align="center">HTML</td>
+                  <td width="25%" align="center">CSS</td>
+                  <td width="25%" align="center">JavaScript</td>
+                  <td width="25%" align="center">JQuery</td>
+                  </tr>
+              </table>
+          </td>
+      </tr>
+
+      <tr>
+        <th colspan="2">Este é o rodapé do site</th>
+      </tr>
 </body>
 </html>
